@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_peliculas/widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -13,7 +14,7 @@ class HomeScreen extends StatelessWidget {
         ),
         body: Column(
           children: [
-            //TODO: CardSwiper
+            CardSwiper()
 
             //lsitado horizanota
           ],
